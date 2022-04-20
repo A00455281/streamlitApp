@@ -30,7 +30,4 @@ ax.plot(priceDf.date, priceDf.price)
 ax.set_xlabel('DATE')
 ax.set_ylabel('PRICE')
 st.pyplot(fig)
-st.write(f'Average price is {round(priceDf.price.mean(),2)}')
-#print(priceDf)
-
-    
+st.write(f'Average price is {round(priceDf.price.mean(),2)}')   
