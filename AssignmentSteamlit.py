@@ -11,7 +11,7 @@ import requests
 import streamlit as st
 import matplotlib.pyplot as plt
 
-st.title("SMU Assignment")
+st.title("Bitcoin prices")
 numofday = st.slider('Number of Days',min_value= 1, max_value=365, value=90)
 seletedCurrency = st.radio('Currency', ['cad', 'usd', 'inr'])
 
